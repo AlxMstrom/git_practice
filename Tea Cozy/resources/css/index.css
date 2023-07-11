@@ -1,0 +1,149 @@
+html{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: seashell;
+}
+
+header {
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    background-color: black;
+    height: 69px;
+    top: 0;
+}
+
+header .logo {
+    background-image: url(../images/img-tea-cozy-logo.png);
+    background-repeat: no-repeat;
+    width: 200px ;
+    text-indent: -9999px;
+    height: 50px;
+    display: block;
+    background-size: cover;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+header nav ul {
+    display:flex;
+    float: right; 
+    list-style: none;
+    margin-top: -45px;
+}
+
+nav li {
+    padding: 10px;
+    font-size: 22px;
+    
+}
+nav a {
+    color: seashell;
+
+}
+
+#mission {
+    background-image: url(../images/img-mission-background.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    height: 700px;
+    width: auto;
+    object-fit: contain;
+    width: 1200px;
+    margin: 0px auto;
+    padding: auto;
+}
+.textbox {
+    position: relative;
+    text-align: center;
+    background-color: black;
+    top: 300px;
+    
+    
+}
+#featured-tea{
+    
+    top: 20px;
+    margin-top: 100px;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    
+}
+#teas{
+    align-items: center;
+    justify-content: center;
+} 
+
+#featured-tea .list1{
+    display: flex;
+    text-align: center;
+    list-style: none;
+    align-items: center; 
+    text-align: center;
+    margin:auto;
+    width: 900px;
+}
+#featured-tea .list2{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: auto;
+    width: 600px;
+    padding: 10px;
+}
+
+
+#featured-tea img {
+    max-width: 300px;
+    max-height: 200px;
+    
+    
+}
+
+#featured-tea span{
+    text-align: center;
+    
+    
+}
+#locations {
+    background-image: url(../images/img-locations-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    width: 1200px;
+    flex: 1 1200px;
+    flex-flow: column;
+    margin:auto
+
+
+}
+
+.location ul {
+    display: flex;
+}
+.location li {
+    width: 300px;
+    background-color: black;
+    align-content: space-between;
+    text-align: center;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    
+}
+#contacts {
+    height: 200px;
+    text-align: center;
+}
+footer {
+    text-align: left;
+    margin: 20px;
+}
